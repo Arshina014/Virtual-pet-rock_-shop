@@ -41,7 +41,7 @@ For Software:
 [commands]
 
 # Run
-[commands]
+https://arshina014.github.io/virtual-pet-rock-shop/
 
 ### Project Documentation
 For Software:
