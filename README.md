@@ -69,7 +69,6 @@ In the video it shows how the shopping website work and health care tips,all ava
 ## Team Contributions
 - Arshina Beevi: Technical
 - Treesa beevi: Programming 
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
