@@ -1,34 +1,34 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
-
-
-# [Project Name] 🎯
+ 
+ 
+Virtual pet rock_shop🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Teaam not found
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Arshina Beevi -MBCCET Peermade
+- Member 2: Treesa Biju-MBCCET Peermade
 
 ### Project Description
-[2-3 lines about what your project does]
+Virtual Pet Rocks! Our unique shop offers a quirky collection of digital rocks, each with its own personality,  and style. Whether you're looking for a lazy sunbather, a rolling adventurer, or a moody philosopher stone, we’ve got the perfect pixelated pal for you.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+the desire for a pet without real world commitment
+
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+A virtual pet shop
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- HTML,CSS,JAVASCRIPT
+- react.js,tailwind css
+-react.js,tailand css
+- visual studio code,gemini
 
 For Hardware:
 - [List main components]
@@ -47,49 +47,28 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+](https://drive.google.com/file/d/1hhWy7kTRULh9eRnBDlnQBO3k4PHPCCTZ/view?usp=drive_link)
+Main page of the website
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+](https://drive.google.com/file/d/1ed6GUer2FcL-4SJcM2A_6NextMGVUgKQ/view?usp=drive_link)
+Adoption information
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/1k2h79R4EVO6VTy_G7Zwbg4cKJBgXw_l3/view?usp=drive_link
+Rock deatils
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+https://drive.google.com/file/d/1xr0p5BPQ5DEUS266oo20mgG9XR1BMTYt/view?usp=drive_link
+Available rocks
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+(https://drive.google.com/file/d/1hdDwVpT583bygOz7IF1KIE5b5B9PiNRa/view?usp=drive_link)
+In the video it shows how the shopping website work and health care tips,all available resorces for a pet rock.
 
-# Additional Demos
-[Add any extra demo materials/links]
+
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
+- Arshina Beevi: Technical
+- Treesa beevi: Programming 
 - [Name 3]: [Specific contributions]
 
 ---
