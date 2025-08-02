@@ -1,0 +1,293 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Be+Vietnam+Pro%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Adoption</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <style>
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+
+  a {
+    color: #6366f1;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+
+  a:hover {
+    color: #4338ca;
+    border-bottom: 2px solid #4338ca;}
+
+
+details[open] summary{
+  border-bottom: 1px solid #e5e7eb;
+}
+details p{
+  padding: 1rem;
+  margin:0;
+  color:#4b5563;
+  font-size: 0.95rem;
+}
+.faq {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+}
+
+.faq h3 {
+  margin-bottom: 1rem;
+}
+
+.faq details {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faq summary {
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  list-style: none;
+  position: relative;
+}
+
+.faq summary:hover {
+  background-color: #f3f4f6;
+}
+
+.faq summary::after {
+  content: "▼";
+  font-size: 0.8rem;
+  position: absolute;
+  right: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.faq details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.faq details p {
+  padding: 0 1rem 1rem;
+  margin: 0;
+  font-size: 0.95rem;
+  color: #4b5563;
+  background: #fff;
+}
+
+</style>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#f9f9fb] group/design-root overflow-x-hidden" style='font-family: "Be Vietnam Pro", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e9eaf2] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#0f111a]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_6_535)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_6_535"><rect width="48" height="48" fill="white"></rect></clipPath>
+                </defs>
+              </svg>
+            </div>
+            <h2 class="text-[#0f111a] text-lg font-bold leading-tight tracking-[-0.015em]">Virtual Pet Rock Zoo</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#0f111a] text-sm font-medium leading-normal" href="Main.html">Home</a>
+              <a class="text-[#0f111a] text-sm font-medium leading-normal" href="activites.html">Activity</a>
+              <a class="text-[#0f111a] text-sm font-medium leading-normal" href="about.html">About</a>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#e9eaf2] text-[#0f111a] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#0f111a]" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#e9eaf2] text-[#0f111a] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#0f111a]" data-icon="ShoppingCart" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("login.png ");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-[#0f111a] tracking-light text-[32px] font-bold leading-tight min-w-72">Adoption Information</p>
+            </div>
+            <p class="text-[#0f111a] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Welcome to the Virtual Pet Rock Zoo! We're thrilled you're considering adopting a virtual pet rock. This page provides all the information you need to bring a new
+              rocky friend into your life.
+            </p>
+            <h3 class="text-[#0f111a] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Adoption Process</h3>
+            <p class="text-[#0f111a] text-base font-normal leading-normal pb-3 pt-1 px-4">Adopting a virtual pet rock is easy and fun! Follow these simple steps:</p>
+            <div class="flex items-center gap-4 bg-[#f9f9fb] px-4 min-h-[72px] py-2">
+              <div
+                class="text-[#0f111a] flex items-center justify-center rounded-lg bg-[#e9eaf2] shrink-0 size-12"
+                data-icon="MagnifyingGlass"
+                data-size="24px"
+                data-weight="regular"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#0f111a] text-base font-medium leading-normal line-clamp-1">1. Choose Your Rock</p>
+                <a class="text-[#56618f] text-sm font-normal leading-normal line-clamp-2" href="rocks.html">
+                  Browse our selection of unique virtual pet rocks, each with its own personality and story.
+                </a>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#f9f9fb] px-4 min-h-[72px] py-2">
+              <div class="text-[#0f111a] flex items-center justify-center rounded-lg bg-[#e9eaf2] shrink-0 size-12" data-icon="FileText" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Zm-32-80a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,136Zm0,32a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,168Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#0f111a] text-base font-medium leading-normal line-clamp-1">2. Fill Out the Adoption Form</p>
+                <a class="text-[#56618f] text-sm font-normal leading-normal line-clamp-2" href="#">Complete the adoption form with your details and preferences.</a>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#f9f9fb] px-4 min-h-[72px] py-2">
+              <div class="text-[#0f111a] flex items-center justify-center rounded-lg bg-[#e9eaf2] shrink-0 size-12" data-icon="CreditCard" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M224,48H32A16,16,0,0,0,16,64V192a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V64A16,16,0,0,0,224,48Zm0,16V88H32V64Zm0,128H32V104H224v88Zm-16-24a8,8,0,0,1-8,8H168a8,8,0,0,1,0-16h32A8,8,0,0,1,208,168Zm-64,0a8,8,0,0,1-8,8H120a8,8,0,0,1,0-16h16A8,8,0,0,1,144,168Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#0f111a] text-base font-medium leading-normal line-clamp-1">3. Pay the Adoption Fee</p>
+                <a class="text-[#56618f] text-sm font-normal leading-normal line-clamp-2" href="#">A small adoption fee helps us maintain the zoo and care for our virtual rocks.</a>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#f9f9fb] px-4 min-h-[72px] py-2">
+              <div class="text-[#0f111a] flex items-center justify-center rounded-lg bg-[#e9eaf2] shrink-0 size-12" data-icon="Package" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M223.68,66.15,135.68,18a15.88,15.88,0,0,0-15.36,0l-88,48.17a16,16,0,0,0-8.32,14v95.64a16,16,0,0,0,8.32,14l88,48.17a15.88,15.88,0,0,0,15.36,0l88-48.17a16,16,0,0,0,8.32-14V80.18A16,16,0,0,0,223.68,66.15ZM128,32l80.34,44-29.77,16.3-80.35-44ZM128,120,47.66,76l33.9-18.56,80.34,44ZM40,90l80,43.78v85.79L40,175.82Zm176,85.78h0l-80,43.79V133.82l32-17.51V152a8,8,0,0,0,16,0V107.55L216,90v85.77Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#0f111a] text-base font-medium leading-normal line-clamp-1">4. Receive Your Adoption Package</p>
+                <a class="text-[#56618f] text-sm font-normal leading-normal line-clamp-2">Once your adoption is complete, you'll receive a certificate and care guide.</a>
+              </div>
+            </div>
+            <h3 class="text-[#0f111a] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Adoption Fees</h3>
+            <p class="text-[#0f111a] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              The adoption fee for a virtual pet rock is ₹10000. This fee covers the cost of maintaining our virtual zoo, providing care for the rocks, and ensuring a smooth adoption
+              process. Your support helps us continue to offer this unique experience to rock lovers everywhere.
+            </p>
+            <h3 class="text-[#0f111a] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Frequently Asked Questions</h3>
+            <div>
+              <div class="faq">
+  <details>
+    <summary>What is a virtual pet rock?</summary>
+    <p>A virtual pet rock is a digital pet with a fun personality and a backstory. It lives happily in our virtual zoo and brings joy to your digital life!</p>
+  </details>
+
+  <details>
+    <summary>How do I care for my virtual pet rock?</summary>
+    <p>Your rock will come with a care guide, but it mostly enjoys love, attention, and occasional compliments. No feeding required!</p>
+  </details>
+
+  <details>
+    <summary>Can I adopt more than one rock?</summary>
+    <p>Absolutely! You can adopt as many rocks as you like. Each one has a unique personality waiting to be discovered.</p>
+  </details>
+</div>
+            </div>
+            <h3 class="text-[#0f111a] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Contact Us</h3>
+            <p class="text-[#0f111a] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              If you have any questions or need assistance with the adoption process, please don't hesitate to contact us at support@virtualpetrockzoo.com or call us at +91 9569924785
+            </p>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap justify-center gap-4">
+                <a href="#">
+                  <div class="text-[#56618f]" data-icon="TwitterLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="text-[#56618f]" data-icon="InstagramLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="text-[#56618f]" data-icon="FacebookLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+              <p class="text-[#56618f] text-base font-normal leading-normal">@2024 Virtual Pet Rock Zoo. All rights reserved.</p>
+            </footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

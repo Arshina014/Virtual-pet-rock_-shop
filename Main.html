@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Pet Rock Zoo</title><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+<link
+  rel="stylesheet"
+  as="style"
+  onload="this.rel='stylesheet'"
+  href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans:wght@400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;700;800"
+/>
+
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+
+  button:hover, a.button:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+
+  a:hover {
+    color: #f6f7f4;
+  }
+
+  .fade-in {
+    animation: fadeIn 1.2s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-white overflow-x-hidden"
+      style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'
+    >
+      <header
+        class="flex items-center justify-between border-b border-solid border-b-[#f4f2f0] px-10 py-3"
+      >
+        <div class="flex items-center gap-4 text-[#181411]">
+          <div class="size-4">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_6_535)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z"
+                  fill="currentColor"
+                ></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_6_535">
+                  <rect width="48" height="48" fill="white"></rect>
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">
+            Virtual Pet Rock Zoo
+          </h2>
+        </div>
+        <div class="flex flex-1 justify-end gap-8">
+          <div class="flex items-center gap-9">
+            <a class="text-sm font-medium" href="#home">Home</a>
+            <a class="text-sm font-medium" href="rocks.html">Our Rocks</a>
+            <a class="text-sm font-medium" href="activites.html">Activities</a>
+          </div>
+          <a
+            href="#rocks"
+            class="button min-w-[84px] h-10 px-4 bg-[#e57f19] rounded-xl text-sm font-bold tracking-[0.015em] text-[#181411] flex items-center justify-center"
+          >
+            Explore the Zoo
+          </a>
+        </div>
+      </header><main class="px-0">
+    <section id="home" class="w-full h-screen fade-in">
+      <div
+        class="w-full h-full bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center text-center gap-6 p-4"
+        style='background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("rock.jpg");'
+      >
+        <h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em]">
+          Welcome to the Virtual Pet Rock Shop
+        </h1>
+        <p class="text-white text-base font-normal leading-normal max-w-2xl">
+          Discover the joy of adopting a virtual pet rock! Each rock has its own unique personality and needs your care. Explore our zoo and find the perfect rock companion for you.
+        </p>
+        <a
+          href="adoption.html"
+          class="button min-w-[84px] h-12 px-5 bg-[#e57f19] rounded-xl text-base font-bold tracking-[0.015em] text-[#181411] flex items-center justify-center"
+        >
+          Adopt a Rock
+        </a>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+  </body>
+</html>

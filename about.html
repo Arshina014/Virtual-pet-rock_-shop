@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            background-color: 0f111a; /* A soft, inviting blue-gray background */
+            color: #1f2937; /* Dark gray text */
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Center vertically */
+            min-height: 100vh;
+            padding: 2rem 1rem; /* Add some padding */
+        }
+        .container {
+            background-color: #ffffff; /* White card background */
+            border-radius: 1.5rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15); /* More prominent shadow */
+            max-width: 800px;
+            width: 100%;
+            padding: 3rem; /* Increased padding */
+            text-align: left;
+            line-height: 1.7; /* Slightly more relaxed line height */
+        }
+        h1 {
+            font-size: 3rem; /* Larger main heading */
+            font-weight: 800;
+            color: #6366f1; /* Brighter indigo color for main title */
+            margin-bottom: 1.5rem;
+            text-align: center;
+            line-height: 1.2;
+            /* Highlight for H1 */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 2rem; /* Larger H2 size */
+            font-weight: 700;
+            color: #374151; /* Darker gray for subheadings */
+            margin-top: 2.5rem; /* More space above H2 */
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #a5b4fc; /* More distinct border below H2 */
+            padding-bottom: 0.5rem;
+            /* Highlight for H2 */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+        }
+        p {
+            margin-bottom: 1.25rem; /* More space between paragraphs */
+            font-size: 1.15rem; /* Slightly larger body text */
+            color: #4b5563; /* Slightly lighter gray for body text */
+        }
+        ul {
+            list-style: disc;
+            margin-left: 2rem; /* More indent for list */
+            margin-bottom: 1.25rem;
+            color: #4b5563;
+        }
+        li {
+            margin-bottom: 0.75rem; /* More space between list items */
+            font-size: 1.1rem;
+        }
+        strong {
+            color: #1f2937; /* Stronger color for bold text */
+        }
+        .copyright {
+            margin-top: 2.5rem;
+            font-size: 0.9rem;
+            color: #6b7280; /* Slightly lighter gray for copyright */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+     <div class="relative flex size-full min-h-screen flex-col bg-[#f9f9fb] group/design-root overflow-x-hidden" style='font-family: "Be Vietnam Pro", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e9eaf2] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#0f111a]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_6_535)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_6_535"><rect width="48" height="48" fill="white"></rect></clipPath>
+                </defs>
+              </svg>
+            </div>
+            <h2 class="text-[#0f111a] text-lg font-bold leading-tight tracking-[-0.015em]">Virtual Pet Rock Zoo</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#0f111a] text-sm font-medium leading-normal" href="Main.html">Home</a>
+              <a class="text-[#0f111a] text-sm font-medium leading-normal" href="activites.html">Activity</a>
+              <a class="text-[#0f111a] text-sm font-medium leading-normal" href="about.html">About</a>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#e9eaf2] text-[#0f111a] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#0f111a]" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#e9eaf2] text-[#0f111a] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#0f111a]" data-icon="ShoppingCart" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("login.png ");'
+            ></div>
+          </div>
+        </header>
+    <div class="container">
+        <h1>About Your Virtual Pet Rock: The Ultimate Companion</h1>
+
+        <p>Welcome to the digital frontier of pet ownership! You've found the **Virtual Pet Rock**, a revolutionary concept redefining companionship. Forget feeding, walking, or even acknowledging your pet – our virtual rocks offer all the joy of a real rock, with zero hassle.</p>
+
+        <h2>What is a Virtual Pet Rock?</h2>
+        <p>It's a pixelated pebble, a digital boulder, a screen-bound stone. It exists solely within your device, fulfilling its destiny by... **just being there**. The ultimate minimalist companion, designed for those who appreciate profound stillness.</p>
+
+        <h2>Our Philosophy: The Zen of Inertia</h2>
+        <p>In a world constantly demanding more, faster, better, the Virtual Pet Rock stands as a monument to **less**. We believe in the quiet power of doing absolutely nothing. Our rocks embody this perfectly, requiring **no training, no vet visits, and zero emotional labor**. They are a digital detox for your pet-owning aspirations.</p>
+
+        <h2>The Benefits (Yes, They're Real!)</h2>
+        <ul>
+            <li>**Zero Maintenance:** Seriously. Zero. No shedding, no broken items, no demands.</li>
+            <li>**Infinite Lifespan:** Your virtual rock is immortal.</li>
+            <li>**Perfectly Quiet:** Ideal for any environment.</li>
+            <li>**No Allergies:** Unless you're allergic to pixels.</li>
+            <li>**Always There:** It remains exactly where you left it.</li>
+            <li>**Conversation Starter:** "Oh, you have a virtual pet rock? Tell me more about your life choices."</li>
+        </ul>
+
+        <h2>Join the Movement!</h2>
+        <p>By embracing a Virtual Pet Rock, you're making a statement about simplicity, the beauty of the unchanging, and finding joy in the utterly useless. Go forth and cherish your digital geology. It's a **rock-solid investment** in having a virtual rock.</p>
+
+        <p class="copyright">© 2025 Virtual Pet Rock. All rights reserved.</p>
+    </div>
+</body>
+</html>
